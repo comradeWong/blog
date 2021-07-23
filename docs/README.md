@@ -5,7 +5,7 @@ actionText: 让我们开始吧 →
 actionLink: /web/html/uniapp_login
 features:
 - title: day day up
-  details: 记录每一天的进步, 一分耕耘，一分收获.
+  details: 飞上枝头的都风趣，占了巢的都在窃喜。
 - title: 向西引北风的博客
   details: 专注 Node.js 技术栈分享，从 前端 到 Node.js 再到 后端数据库，祝您成为优秀的高级 Node.js 全栈工程师
 - title: 向西引北风

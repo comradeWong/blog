@@ -1,4 +1,10 @@
 module.exports = {
+  head: [
+    [
+      'link',
+      {rel: 'icon', href: 'rocket.png'}
+    ]
+  ],
   title: "向西引北风的博客",
   description: "向西引北风的博客，随便写点心得，收集优质文章",
   themeConfig: {
@@ -13,17 +19,6 @@ module.exports = {
       },
       {text: "面试问题", link: "/interview/"},
     ],
-    // sidebar: [
-    //   {
-    //     title: 'HTML',   // 必要的
-    //     path: '/public/web/html/uniapp_login',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-    //     collapsable: false, // 可选的, 默认值是 true,
-    //     sidebarDepth: 1,    // 可选的, 默认值是 1
-    //     children: [
-    //       ['/public/web/html/uniapp_login', 'uniapp 微信小程序登录授权']
-    //     ]
-    //   }
-    // ]
     sidebar: {
       '/web/html/': [
         {
@@ -41,4 +36,5 @@ module.exports = {
       ],
     }
   },
+  plugins: ['@vuepress/back-to-top', '@vuepress/active-header-links']
 };
