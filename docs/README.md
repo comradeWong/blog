@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /home.jpg
-actionText: Get Started →
-actionLink: /node/
+actionText: 让我们开始吧 →
+actionLink: /web/html/uniapp_login
 features:
 - title: day day up
   details: 记录每一天的进步, 一分耕耘，一分收获.
