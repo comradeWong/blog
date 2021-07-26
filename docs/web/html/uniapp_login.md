@@ -342,7 +342,7 @@ export const sendPhoneLogin = (info) => {
 ## 相关接口
 
 ```javascript
-import request from '@/utils/request.js'
+import request from '@/utils/request.javascript'
 
 export const validLogin = (params) => {
 	return request.get('/wx/validLogin', params)
