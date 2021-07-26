@@ -37,12 +37,7 @@ module.exports = {
           path: '/web/html/',
           collapsable: true, // 可选的, 默认值是 true,
           sidebarDepth: 2,    // 可选的, 默认值是 1
-          children: [
-            {
-              title: 'uniapp 微信小程序登录授权',
-              path: '/web/html/uniapp_login'
-            }
-          ]
+          children: []
         }
       ],
       '/web/css/': [
@@ -105,7 +100,12 @@ module.exports = {
           path: '/mobile/uniapp/',
           collapsable: true, // 可选的, 默认值是 true,
           sidebarDepth: 2,    // 可选的, 默认值是 1
-          children: []
+          children: [
+            {
+              title: 'uniapp 微信小程序登录授权',
+              path: '/mobile/uniapp/uniapp_login'
+            }
+          ]
         }
       ],
       '/mobile/wechat/':  [
