@@ -129,5 +129,10 @@ module.exports = {
       ],
     },
   },
-  plugins: ['@vuepress/back-to-top', '@vuepress/active-header-links'],
+  plugins: [
+    '@vuepress/back-to-top',
+    '@vuepress/active-header-links',
+    '@vuepress/nprogress',
+    '@vuepress/medium-zoom',
+  ],
 }
