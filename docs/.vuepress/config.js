@@ -1,7 +1,7 @@
 module.exports = {
   head: [['link', { rel: 'icon', href: 'rocket.png' }]],
-  title: '树荫下的老躺椅',
-  description: '前端知识仓库',
+  title: 'Redrum\'s Blog',
+  description: 'Knowledge Repo',
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },
@@ -101,7 +101,16 @@ module.exports = {
           path: '/interview/',
           collapsable: true, // 可选的, 默认值是 true,
           sidebarDepth: 2, // 可选的, 默认值是 1
-          children: [],
+          children: [
+            {
+              title: 'Vue_美腾面试题',
+              path: '/interview/mt_interview',
+            },
+            {
+              title: 'Vue_基础知识30问',
+              path: 'https://juejin.cn/post/6930897845369356295',
+            },
+          ],
         },
       ],
       '/mobile/uniapp/': [
