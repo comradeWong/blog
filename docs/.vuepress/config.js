@@ -8,23 +8,20 @@ module.exports = {
       {
         text: '前端',
         items: [
+          { text: 'vue', link: '/web/vue/' },
+          { text: 'react', link: '/react/' },
+          { text: 'flutter', link: '/mobile/flutter/'},
           { text: 'html', link: '/web/html/' },
           { text: 'css', link: '/web/css/' },
           { text: 'javascript', link: '/web/javascript/' },
           { text: 'typescript', link: '/web/typescript/' },
-        ],
-      },
-      { text: 'vue', link: '/web/vue/' },
-      { text: 'react', link: '/react/' },
-      {
-        text: '移动端',
-        items: [
           { text: 'uniapp', link: '/mobile/uniapp/' },
           { text: '微信小程序', link: '/mobile/wechat/' },
+          { text: 'node', link: '/node/' },
         ],
       },
-      { text: 'node', link: '/node/' },
       { text: '面试题', link: '/interview/' },
+      { text: '搭建教程', link: 'https://juejin.cn/post/6844904185838698509' }
     ],
     sidebar: {
       '/web/html/': [
@@ -51,7 +48,12 @@ module.exports = {
           path: '/web/javascript/',
           collapsable: true, // 可选的, 默认值是 true,
           sidebarDepth: 2, // 可选的, 默认值是 1
-          children: [],
+          children: [
+            {
+              title: 'JavaScript隐式转换的问题',
+              path: 'https://chinese.freecodecamp.org/news/javascript-implicit-type-conversion/'
+            }
+          ],
         },
       ],
       '/web/typescript/': [
@@ -69,7 +71,12 @@ module.exports = {
           path: '/web/vue/',
           collapsable: true, // 可选的, 默认值是 true,
           sidebarDepth: 2, // 可选的, 默认值是 1
-          children: [],
+          children: [
+            {
+              title: '基于Vue2 + Webpack的优化',
+              path: '/web/vue/vue2_optimize',
+            },
+          ],
         },
       ],
       '/react/': [
@@ -131,6 +138,15 @@ module.exports = {
         {
           title: '微信小程序', // 必要的// 可选的, 标题的跳转链接，应为绝对路径且必须存在
           path: '/mobile/wechat/',
+          collapsable: true, // 可选的, 默认值是 true,
+          sidebarDepth: 2, // 可选的, 默认值是 1
+          children: [],
+        },
+      ],
+      '/mobile/flutter/': [
+        {
+          title: 'Flutter', // 必要的// 可选的, 标题的跳转链接，应为绝对路径且必须存在
+          path: '/mobile/flutter/',
           collapsable: true, // 可选的, 默认值是 true,
           sidebarDepth: 2, // 可选的, 默认值是 1
           children: [],
