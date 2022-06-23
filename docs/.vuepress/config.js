@@ -76,6 +76,14 @@ module.exports = {
               title: '基于Vue2 + Webpack的优化',
               path: '/web/vue/vue2_optimize',
             },
+            {
+              title: 'Vue2 迁移 Vue3',
+              path: '/web/vue/vue2_to_vue3',
+            },
+            {
+              title: 'Vue CLI 迁移 Vite',
+              path: '/web/vue/vue_cli_to_vite',
+            },
           ],
         },
       ],
