@@ -30,7 +30,12 @@ module.exports = {
           path: '/web/html/',
           collapsable: true, // 可选的, 默认值是 true,
           sidebarDepth: 2, // 可选的, 默认值是 1
-          children: [],
+          children: [
+            {
+              title: 'kkFileView的部署问题',
+              path: '/web/html/kk_file_view'
+            }
+          ],
         },
       ],
       '/web/css/': [
@@ -166,6 +171,6 @@ module.exports = {
     '@vuepress/back-to-top',
     '@vuepress/active-header-links',
     '@vuepress/nprogress',
-    '@vuepress/medium-zoom',
+    '@vuepress/medium-zoom'
   ],
 }
