@@ -171,6 +171,13 @@ module.exports = {
     '@vuepress/back-to-top',
     '@vuepress/active-header-links',
     '@vuepress/nprogress',
-    '@vuepress/medium-zoom'
+    '@vuepress/medium-zoom',
+    [
+      '@vuepress-reco/vuepress-plugin-kan-ban-niang',
+      {
+        theme: ['blackCat'],
+        clean: true
+      }
+    ]
   ],
 }
